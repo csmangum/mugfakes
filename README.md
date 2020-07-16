@@ -44,7 +44,7 @@ With my first attempt at generating mugshots, I went with a relatively simple ap
 * Iterations: 1,000
 * Method: DGAN  
 
-<img src="https://github.com/csmangum/portfolio/blob/master/Mugshots/img/fake_samples_epoch_0999.png" width="800">
+<img src="https://github.com/csmangum/mugfakes/blob/master/img/fake_samples_epoch_0999.png" width="800">
 
 ## 2. Second Run
 In this attempt I used only images from the Florida subset since the image quality seemed more uniform and focused. Even after 1,000 iterations the model hit its limit at this resolution. This was the moment I decided to use the StyleGAN approach for more detailed images.
@@ -55,7 +55,7 @@ In this attempt I used only images from the Florida subset since the image quali
 * Iterations: 1,200
 * Method: DGAN  
 
-<img src="https://github.com/csmangum/portfolio/blob/master/Mugshots/img/fake_samples_epoch_1190.png" width="800">
+<img src="https://github.com/csmangum/mugfakes/blob/master/img/fake_samples_epoch_1190.png" width="800">
 
 ## 3. Third Run
 Using only the mugshots from Florida, I ran for more than 400,000 iterations with the StyleGAN architecture getting decent results. There was still some anomalies and a lot of the faces still didn't look realistic. In my next approach I will use mugshots from both state agencies.
@@ -66,7 +66,7 @@ Using only the mugshots from Florida, I ran for more than 400,000 iterations wit
 * Iterations: 427,000
 * Method: StyleGAN  
 
-<img src="https://github.com/csmangum/portfolio/blob/master/Mugshots/img/427100.png" width="800">
+<img src="https://github.com/csmangum/mugfakes/blob/master/img/427100.png" width="800">
 
 
 ## 4. Fourth Run
@@ -78,7 +78,7 @@ I augmented my training set by mirroring every image and was able to get the bes
 * Iterations: 362,000
 * Method: StyleGAN  
 
-<img src="https://github.com/csmangum/portfolio/blob/master/Mugshots/img/256_362100.png" width="800">  
+<img src="https://github.com/csmangum/mugfakes/blob/master/img/256_362100.png" width="800">  
 
 # Final Attempt
 
@@ -94,14 +94,14 @@ I augmented my training set by mirroring every image and was able to get the bes
 
 # Additional Analysis
 
-* [Sex - Classification](https://github.com/csmangum/portfolio/blob/master/Mugshots/Gender_Classification.ipynb)  
+* [Sex - Classification](https://github.com/csmangum/mugfakes/blob/master/Gender_Classification.ipynb)  
   * Using Convolutional Neural Networks (CNN) in Keras
   * Achieved reasonable success with a ROC-AUC of 0.96
   * Performed poorly when using non-mugshot images (ROC-AUC: 0.61)
-* [Age - Regression](https://github.com/csmangum/portfolio/blob/master/Mugshots/Age_Keras_Regression.ipynb)
+* [Age - Regression](https://github.com/csmangum/mugfakes/blob/master/Age_Keras_Regression.ipynb)
   * CNNs in Keras to predict age
   * RMSE on validation at 11.7 years
-* [Age - Classification](https://github.com/csmangum/portfolio/blob/master/Mugshots/Age_Keras_Classification.ipynb)
+* [Age - Classification](https://github.com/csmangum/mugfakes/blob/master/Age_Keras_Classification.ipynb)
   * CNNs in Keras to predict age
   * Binned ages into 4 buckets
   * Achieved mediocre success with a ROC-AUC ranging from 0.63 to 0.76
