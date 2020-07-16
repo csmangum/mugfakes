@@ -8,7 +8,7 @@
 Use Generative Adversarial Networks (GAN) to generate realistic images trained on thousands of actual mugshots.
 
 ## Approach
-* Create novel image dataset through [web scraping](https://github.com/csmangum/portfolio/blob/master/Mugshots/get_mugshots.ipynb)
+* Create novel image dataset through [web scraping](https://github.com/csmangum/mugfakes/blob/master/get_mugshots.ipynb)
 * Experiment with the GAN architecture
   * First following the [original](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) framework
   * Then use an awesome PyTorch [implementation](https://github.com/rosinality/style-based-gan-pytorch) of NVIDIA's Tensorflow example ([StyleGAN](https://github.com/NVlabs/stylegan))  
