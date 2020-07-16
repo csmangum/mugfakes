@@ -94,7 +94,7 @@ I augmented my training set by mirroring every image and was able to get the bes
 
 # Additional Analysis
 
-* [Sex - Classification](https://github.com/csmangum/mugfakes/blob/master/Gender_Classification.ipynb)  
+* [Sex - Classification](https://github.com/csmangum/mugfakes/blob/master/Gender_Classification.ipynb)
   * Using Convolutional Neural Networks (CNN) in Keras
   * Achieved reasonable success with a ROC-AUC of 0.96
   * Performed poorly when using non-mugshot images (ROC-AUC: 0.61)
