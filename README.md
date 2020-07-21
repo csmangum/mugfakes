@@ -89,7 +89,7 @@ I augmented my training set by mirroring every image and was able to get the bes
 * Method: StyleGAN  
 
 <img src="https://github.com/csmangum/mugfakes/blob/master/img/512_024000.png" width="800">  
-<img src="https://github.com/csmangum/mugfakes/blob/master/img/size_8_summary.png" width="400"><img src="https://github.com/csmangum/mugfakes/blob/master/img/size_512_summary.png" width="400">
+<img src="https://github.com/csmangum/mugfakes/blob/master/img/size_8_summary.png" width="600"><img src="https://github.com/csmangum/mugfakes/blob/master/img/size_512_summary.png" width="600">
 
 # Future
 1. Train on larger set of mugshots
