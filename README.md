@@ -82,6 +82,8 @@ I augmented my training set by mirroring every image and was able to get the bes
 
 # Final Attempt
 
+<img src="https://github.com/csmangum/mugfakes/blob/master/img/512_024000.png" width="800">
+
 * Image size: 512x512
 * Image count: 5,000
 * Iterations: 
